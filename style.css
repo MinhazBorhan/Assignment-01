@@ -13,6 +13,7 @@
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
@@ -27,6 +28,10 @@
     font-size: 65px;
     line-height: 76px;
     color: #151414;
+}
+
+#banner-style {
+    color: chartreuse;
 }
 
 .banner-discription {
