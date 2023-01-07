@@ -43,6 +43,9 @@
     margin-bottom: 25px;
 }
 
+#text-style {
+    font-size: 13px;
+}
 #btn-contact {
     padding: 20px 25px;
     border-radius: 5px;
@@ -93,6 +96,7 @@ li {
     margin-top: 125px;
     text-align: center;
     padding: 0 150px;
+    margin-bottom: 100px;
 }
 
 .plan-title {
@@ -119,7 +123,39 @@ li {
     color: #737272;
     margin-top: 16px;
 }
+/* Lesson style */
+.lesson {
+    text-align: center;
+    align-items: center;
+}
 
+#lesson-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+#image-style {
+    width: 200px;
+    height: 200px;
+}
+
+.lesson-discription {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 350px;
+    height: 25vh;
+    width: 50%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
 /* Motivation style */
 .motivation {
     background-image: url(images/gradient1.png), url('images/watch.png');
