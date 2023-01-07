@@ -1,24 +1,28 @@
+/* universal style */
 * {
-    font-family: 'Work Sans';
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
+/* banner style */
 .banner {
+    display: flex;
+    justify-content: right;
     text-align: right;
-    float: right;
     align-items: center;
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
 }
 
-.banner-title{
+.banner-container {
     padding-top: 50px;
-    padding-right: 230px;
+    padding-right: 150px;
 }
-.banner-sub-title {
+
+.banner-title {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
@@ -34,9 +38,140 @@
     margin-bottom: 25px;
 }
 
-.btn-primary{
+#btn-contact {
     padding: 20px 25px;
     border-radius: 5px;
     color: white;
-    background-color: orangered;
+    background: #FD6E0A;
+    border: 0;
+    width: 140px;
+    height: 60px;
+}
+
+.my-failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+#failure-image {
+    margin: 100px;
+    margin-left: 87px;
+    width: 569px;
+    height: 724px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+.failure-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* My plan style */
+.my-plan {
+    margin-top: 125px;
+    text-align: center;
+    padding: 0 150px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+
+.plan-subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-discription {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+/* Motivation style */
+.motivation {
+    background-image: url(images/gradient1.png), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 125px;
+    padding: 50px 100px 50px 200px;
+    border-radius: 5px;
+}
+
+#motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    background: white;
+    border: 0;
+    width: 140px;
+    height: 60px;
+}
+
+/* Future style */
+.future {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 130px 230px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.future-icon {
+    margin: 15px;
+}
+
+#future-title {
+    margin-bottom: 31px;
+}
+
+input {
+    padding: 21px 30px 21px 16px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 310px;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 16px;
 }
